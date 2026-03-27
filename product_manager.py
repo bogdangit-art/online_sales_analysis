@@ -13,3 +13,6 @@ class ProductManager(Product):
 
     def display_info(self) -> str:
         return f'Name: {self.name}, Price: {self.price}, Quantity: {self.quantity}'
+
+    def remove_product(self, product: Product) -> None:
+        self.shopping_history.remove(product)
