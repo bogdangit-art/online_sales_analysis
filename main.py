@@ -10,6 +10,15 @@ if __name__ == "__main__":
         Product("Vioara acustica", 325.80, 765),
         Product("Boxa", 105, 100)
     ]
+    cart = Cart()
+    cart.add_products(products[0])
+    cart.add_products(products[1])
+    cart.add_products(products[2])
+
+    print(f"Total cart price is:", cart.total_price())
+    print(f"Cart items are:", cart.display_info())
+
+
 
 
     for product in products:
