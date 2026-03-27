@@ -1,4 +1,3 @@
-from product_manager import *
 from product import *
 
 class Cart:
