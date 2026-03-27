@@ -13,6 +13,6 @@ if __name__ == "__main__":
 
     for product in products:
         print(f"{product.name} in stock: {product.check_quantity()}")
-        print(f"Total spent is {product.price * product.quantity}")
+        print(f"Total spent is:", product.price * product.quantity)
 
 
