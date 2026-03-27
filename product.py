@@ -4,15 +4,6 @@ class Product:
         self.price = price
         self.quantity = quantity
 
-
-    def get_price(self) -> float:
-        return self.price
-    def set_price(self, price)-> None:
-        self.price = price
-
-
-
-
     def check_quantity(self) -> bool:
         return self.quantity >= 10
 

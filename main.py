@@ -1,5 +1,6 @@
 from product import Product
 from product_manager import ProductManager
+from cart import Cart
 
 if __name__ == "__main__":
     products = [
@@ -13,6 +14,6 @@ if __name__ == "__main__":
 
     for product in products:
         print(f"{product.name} in stock: {product.check_quantity()}")
-        print(f"Total spent is:", product.price * product.quantity)
+        print(f"Total spent is: {product.price * product.quantity}")
 
 
