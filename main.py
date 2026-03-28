@@ -12,7 +12,7 @@ if __name__ == "__main__":
     ]
 
     cart = Cart()
-    
+
     cart.add_products(products[0])
     cart.add_products(products[1])
     cart.add_products(products[2])
