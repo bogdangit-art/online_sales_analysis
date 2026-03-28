@@ -10,7 +10,9 @@ if __name__ == "__main__":
         Product("Vioara acustica", 325.80, 765),
         Product("Boxa", 105, 100)
     ]
+
     cart = Cart()
+    
     cart.add_products(products[0])
     cart.add_products(products[1])
     cart.add_products(products[2])
